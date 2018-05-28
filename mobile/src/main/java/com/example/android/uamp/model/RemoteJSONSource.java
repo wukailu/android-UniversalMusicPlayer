@@ -18,6 +18,7 @@ package com.example.android.uamp.model;
 
 import android.support.v4.media.MediaMetadataCompat;
 
+import com.example.android.uamp.R;
 import com.example.android.uamp.utils.LogHelper;
 
 import org.json.JSONArray;
@@ -41,7 +42,7 @@ public class RemoteJSONSource implements MusicProviderSource {
     private static final String TAG = LogHelper.makeLogTag(RemoteJSONSource.class);
 
     protected static final String CATALOG_URL =
-        "http://storage.googleapis.com/automotive-media/music.json";
+            "http://storage.googleapis.com/automotive-media/music.json";
 
     private static final String JSON_MUSIC = "music";
     private static final String JSON_TITLE = "title";

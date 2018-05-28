@@ -49,6 +49,7 @@ public class MediaItemViewHolder {
     private ImageView mImageView;
     private TextView mTitleView;
     private TextView mDescriptionView;
+    private TextView mEmotionView;
 
     // Returns a view for use in media item list.
     static View setupListView(Activity activity, View convertView, ViewGroup parent,
@@ -68,6 +69,7 @@ public class MediaItemViewHolder {
             holder.mImageView = (ImageView) convertView.findViewById(R.id.play_eq);
             holder.mTitleView = (TextView) convertView.findViewById(R.id.title);
             holder.mDescriptionView = (TextView) convertView.findViewById(R.id.description);
+            holder.mEmotionView = (TextView) convertView.findViewById(R.id.music_emotion);
             convertView.setTag(holder);
         } else {
             holder = (MediaItemViewHolder) convertView.getTag();
@@ -86,8 +88,10 @@ public class MediaItemViewHolder {
             if (drawable != null) {
                 holder.mImageView.setImageDrawable(drawable);
                 holder.mImageView.setVisibility(View.VISIBLE);
+                holder.mEmotionView.setVisibility(View.VISIBLE);
             } else {
                 holder.mImageView.setVisibility(View.GONE);
+                holder.mEmotionView.setVisibility(View.GONE);
             }
             convertView.setTag(R.id.tag_mediaitem_state_cache, state);
         }

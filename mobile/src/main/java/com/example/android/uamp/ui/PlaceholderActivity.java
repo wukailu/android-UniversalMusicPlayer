@@ -24,7 +24,7 @@ import com.example.android.uamp.R;
  * are in the navigation drawer.
  */
 public class PlaceholderActivity extends BaseActivity {
-
+    // TODO: Finish the main part.
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -100,6 +100,7 @@ public abstract class ActionBarCastActivity extends AppCompatActivity {
                         activityClass = MusicPlayerActivity.class;
                         break;
                     case R.id.navigation_playlists:
+                        // TODO: Change the Class to Band main.
                         activityClass = PlaceholderActivity.class;
                         break;
                 }

@@ -16,7 +16,7 @@
   -->
 <resources>
 
-    <string name="app_name">Universal Music Player</string>
+    <string name="app_name" translatable="false">Music Player</string>
     <string name="favorite">Favorite</string>
     <string name="error_no_metadata">Unable to retrieve metadata.</string>
     <string name="browse_genres">Genres</string>
@@ -36,15 +36,15 @@
     <string name="touch_to_cast">Touch to connect to a Google Cast device</string>
     <!-- Use the default receiver. To customize a styled media receiver, you can use
          the css and images under <project-root>/docs/cast_styled_receiver -->
-    <string name="cast_application_id">CC1AD845</string>
+    <string name="cast_application_id" translatable="false">CC1AD845</string>
     <string name="home_title">Home</string>
     <string name="related_content_header">You may also like</string>
     <string name="action_listen">Listen</string>
     <string name="open_content_drawer">Open the main menu</string>
     <string name="close_content_drawer">Close the main menu</string>
-    <string name="placeholder_message">This is a placeholder for your application code.</string>
+    <string name="placeholder_message" translatable="false">This is a placeholder for your application code.</string>
     <string name="drawer_allmusic_title">All Music</string>
-    <string name="drawer_playlists_title">Playlists</string>
+    <string name="drawer_playlists_title">BandManage</string>
     <string name="now_playing">Now Playing</string>
     <string name="background_image_str">Background image for album art</string>
     <string name="search_queue_title">Search results</string>
@@ -54,6 +54,7 @@
     <string name="nav_header_username">Username</string>
 
     <!-- Notificaiton Channel -->
-    <string name="notification_channel">UAMP_Channel_ID</string>
-    <string name="notification_channel_description">Channel ID for UAMP</string>
+    <string name="notification_channel" translatable="false">UAMP_Channel_ID</string>
+    <string name="notification_channel_description" translatable="false">Channel ID for UAMP</string>
+    <string name="emotion_none" translatable="false">Happy</string>
 </resources>

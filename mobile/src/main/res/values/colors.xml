@@ -31,4 +31,5 @@
     <color name="background_gradient_start">#000000</color>
     <color name="background_gradient_end">#DDDDDD</color>
     <color name="default_background">#0096a6</color>
+    <color name="emotion_color_none">#ec5149</color>
 </resources>
