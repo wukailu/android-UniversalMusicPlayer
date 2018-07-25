@@ -30,6 +30,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.android.uamp.R;
@@ -49,7 +50,7 @@ public class MediaItemViewHolder {
     private ImageView mImageView;
     private TextView mTitleView;
     private TextView mDescriptionView;
-    private TextView mEmotionView;
+    private LinearLayout mEmotionView;
 
     // Returns a view for use in media item list.
     static View setupListView(Activity activity, View convertView, ViewGroup parent,
@@ -69,7 +70,7 @@ public class MediaItemViewHolder {
             holder.mImageView = (ImageView) convertView.findViewById(R.id.play_eq);
             holder.mTitleView = (TextView) convertView.findViewById(R.id.title);
             holder.mDescriptionView = (TextView) convertView.findViewById(R.id.description);
-            holder.mEmotionView = (TextView) convertView.findViewById(R.id.music_emotion);
+            holder.mEmotionView = (LinearLayout) convertView.findViewById(R.id.music_emotions);
             convertView.setTag(holder);
         } else {
             holder = (MediaItemViewHolder) convertView.getTag();
